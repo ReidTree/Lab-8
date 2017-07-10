@@ -1,0 +1,53 @@
+body {
+  width: 1400px;
+  min-height: 400px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightblue;
+}
+h2 {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+table#groceryTable {
+  margin: 20px auto;
+  float: right;
+  width:65%;
+  display: table;
+}
+tr:nth-child(2n+1) {
+  margin: 0;
+}
+tr#insert, tr.footRow {
+  padding: 2px;
+  border: 2px solid black;
+  background-color: navy;
+  color: white;
+}
+td{
+  text-align: center;
+  width: auto;
+  max-width: 150px;
+}
+td:nth-child(3) {
+  font-weight: bold;
+  text-align: left;
+}
+button.deleteBtn {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+  margin: 0;
+}
+form {
+  margin: 15px;
+  width: 30%;
+  float: left;
+}
+input, button.floatR {
+  width: 60%;
+  float: right;
+}
